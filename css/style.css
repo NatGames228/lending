@@ -10,6 +10,7 @@
 }
 
 .promo {
+  box-sizing: content-box;
   height: 800px;
   background: url('../img/main_bg.png') center center/cover no-repeat;
   padding: 39px 0 62px 0;
@@ -109,9 +110,65 @@ h2.title {
   text-transform: uppercase;
   color: #FFFFFF;
 }
- 
+
 .more .more_img {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
+}
+
+.waiting {
+  height: 607px;
+  background: #EFEFEF;
+  padding: 85px, 0, 75px, 0;
+}
+
+.waiting .waiting_header {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.waiting .waiting_divider {
+  width: 220px;
+  height: 7px;
+  background: #F9BF3B;
+  margin-top: 18px;
+  margin: 0 auto;
+}
+
+.waiting .waiting_subheader {
+  margin-top: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+  margin-top: 33px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4A4A4A;
 }
